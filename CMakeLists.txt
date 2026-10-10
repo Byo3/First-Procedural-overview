@@ -7,7 +7,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 add_executable(Grids main.cpp)
 
-set(SFML_DIR "/home/yang/DevProjects/C++/Libraries/SFML-3.1.0/lib/cmake/SFML/")
+set(SFML_DIR "~/DevProjects/C++/Libraries/SFML-3.1.0/lib/cmake/SFML/")
 
 find_package(SFML 3.1 REQUIRED COMPONENTS Graphics Window System Audio Network)
 
